@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inc", "inc", "{EC746E5F-AC3A-4E4E-A231-382AE4FBD818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{AA79C254-2685-478A-9736-817C71D3754F}"
+	ProjectSection(SolutionItems) = preProject
+		..\src\lib\glew32.lib = ..\src\lib\glew32.lib
+		..\src\lib\glew32s.lib = ..\src\lib\glew32s.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "头文件", "头文件", "{F5EE7AD3-D8A4-4495-850A-EDBB56BD89EC}"
+	ProjectSection(SolutionItems) = preProject
+		..\src\inc\glew.h = ..\src\inc\glew.h
+		..\src\inc\glxew.h = ..\src\inc\glxew.h
+		..\src\inc\wglew.h = ..\src\inc\wglew.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "源文件", "源文件", "{F6E9F3F0-B424-46D6-96AA-91A0E857F28C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gmud", "..\src\gmud\Gmud.vcxproj", "{0B07EC59-1097-438D-9A03-23F8F92A6668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{5B738469-A63D-4940-97C2-0591A42218B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\src\bin\glew32.dll = ..\src\bin\glew32.dll
+		..\src\bin\glewinfo.exe = ..\src\bin\glewinfo.exe
+		..\src\bin\visualinfo.exe = ..\src\bin\visualinfo.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B07EC59-1097-438D-9A03-23F8F92A6668}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B07EC59-1097-438D-9A03-23F8F92A6668}.Debug|Win32.Build.0 = Debug|Win32
+		{0B07EC59-1097-438D-9A03-23F8F92A6668}.Release|Win32.ActiveCfg = Release|Win32
+		{0B07EC59-1097-438D-9A03-23F8F92A6668}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5EE7AD3-D8A4-4495-850A-EDBB56BD89EC} = {EC746E5F-AC3A-4E4E-A231-382AE4FBD818}
+		{F6E9F3F0-B424-46D6-96AA-91A0E857F28C} = {EC746E5F-AC3A-4E4E-A231-382AE4FBD818}
+	EndGlobalSection
+EndGlobal
